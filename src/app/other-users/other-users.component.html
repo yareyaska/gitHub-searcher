@@ -1,0 +1,37 @@
+
+<div class="mee">
+<h2>search others git hub acoount here</h2>
+</div>
+<div class="input">
+<input type="text" placeholder="Enter a username " [(ngModel)]="usernameInput"id="search"><br><br>
+<div class="me">
+<button type="button" class="btn btn-success"(click)="getUserInfo()"  >Submit</button>
+</div>
+
+</div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6" id="u-avatar">
+          <img src="{{otherUserInfo.avatar}}"class="img-fluid rounded-circle">
+        </div>
+
+  
+  
+  
+      
+        
+          
+        
+          <div class="col-md-6">
+        <ul class="jumbotron" >
+            <li   appHighlight>Username: <b>{{otherUserInfo.username}} </b></li>
+              <li appHighlight>Followers: {{otherUserInfo.followers}}</li>
+                <li appHighlight>following:  {{otherUserInfo.following}}</li>
+        
+                <li><a href="{{otherUserInfo.html_url}}" class="btn btn-success" target="_blank">View Github Profile</a></li>
+        </ul>
+              </div>
+              
+</div>
+</div>
+

@@ -1,0 +1,24 @@
+#search {
+    font-size: xx-large;
+    border-radius: 20px;
+  
+  }
+  .input{
+      text-align: center;
+  }
+  .me{
+  	margin-bottom: 100px;
+  }
+
+  ul{
+  	list-style: none;
+  }
+
+    .mee{
+  	margin-bottom: 30px;
+  	margin-top: 50px;
+  	color: white;
+  	text-align: center;
+  	font-size: 205px;
+  }
+
