@@ -11,8 +11,7 @@ export class MyInfoComponent implements OnInit {
   constructor(public http:GithubRequestService) { }
 
   ngOnInit() {
-    this.http.myUserInfo()
-    this.myInfo = this.http.user
+    
     
   }
 }
