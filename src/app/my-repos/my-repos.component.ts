@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyReposComponent implements OnInit {
 
-  constructor(add repo) { }
+  constructor() { }
 
   ngOnInit() {
     
